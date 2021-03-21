@@ -1,0 +1,209 @@
+.body-cont{
+    height: max-content;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin-cont{
+    height: 100%;
+    width: 85%;
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-direction: column;
+}
+
+.played-pod{
+    margin-top: 15vh;
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(179, 178, 178);
+    display: flex;
+    align-items: center;
+}
+
+.pod-img{
+    height: 20vh;
+    width: 10vw;
+    background-color: white;
+    margin-left: 15px;
+}
+
+.pod-detail{
+    height: 100%;
+    margin: 0px 20px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Newest-Episodes{
+    font-size: large;
+    font-weight: 500;
+    margin-top: 2.5vh;
+}
+
+.btn{
+    height: 7vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+.prev-btn, .next-btn{
+    height: 50px;
+    background-color: rgb(179, 178, 178);
+    border: none;
+    margin: 0px 5px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: medium;
+    display: flex;
+    align-items: center;    
+    /* width: 150px; */
+}
+
+.Date{
+    font-size: large;
+    font-weight: 500;
+    /* margin-bottom: 0%; */
+}
+
+.pod-player{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    /* background-color: blueviolet; */   
+}
+
+.otherPods-cont{
+    margin-top: 20vh;
+    height: 90vh;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+
+.Latest-Ep{
+    width: 80%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+
+.listen-subscribe{
+    width: 20%;
+    height: 100%;
+    /* background-color: coral; */
+    margin: 24px 0px;
+}
+
+.list-sub{
+    margin-bottom: 30px;
+}
+
+.latest-Episodes{
+    font-size: x-large;
+    color: rgb(3, 3, 34);
+    margin-left: 10px;
+}
+
+.list-sub, .podcast-name{
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+
+.podcasters{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a>p{
+    margin: 0px 0px;
+    color: black;
+}
+
+.line-hr{
+    height: 1px;
+    background-color: black;
+}
+
+
+.red-box{
+    height: 10px;
+    width: 10px;
+    background-color:#C1272D;
+    margin: 0px 5px;
+}
+
+.listen-cont{
+    margin-top: 10vh;
+    height: 20vh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center-content{
+    height: 100%;
+    width: 50%;
+    /* background-color: cyan; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listen-pref{
+    display: flex;
+    justify-content: center;
+}
+
+.listen-on, .preferred{
+    font-size: x-large;
+    font-weight: bold;
+    color: #C1272D;
+    margin: 0%;
+}
+
+.preferred{
+    color: #111111;
+    margin-left: 5px;
+}
+
+.you-can{
+    /* background-color: darkgoldenrod; */
+    font-weight: 600;
+}
+
+.icon-cont{
+    margin-top: 15vh;
+    height: 15vh;
+    /* background-color: darkcyan; */
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon-center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: wheat; */
+    width: 50%;
+}
+
+.icon-center>img{
+    height: 64px;
+}

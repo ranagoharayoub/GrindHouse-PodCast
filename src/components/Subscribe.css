@@ -1,0 +1,24 @@
+#mc_embed_signup{
+    margin: 0% !important;
+}
+
+#mc-embedded-subscribe-form{
+    display: flex !important;
+    /* background-color: blueviolet !important; */
+    margin-left: -10px !important;
+}
+
+#mc_embed_signup_scroll{
+    width: 270px !important;
+}
+
+#mce-EMAIL{
+    width: 250px !important;
+    
+}
+
+#mc-embedded-subscribe{
+    background-color: #C1272D !important;
+    margin-top: 11px !important;
+    width: 100px !important;
+}

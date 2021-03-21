@@ -1,0 +1,57 @@
+.played-podEp{
+    /* margin-top: 10vh; */
+    height: 20vh;
+    width: 95%;
+    background-color: rgb(179, 178, 178);
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.pod-imgEp{
+    height: 16vh;
+    width: 8vw;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.pod-detailEp{
+    height: 100%;
+    margin: 0px 5px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.New-Episode{
+    font-size: medium;
+    font-weight: 500;
+    margin-top: 1.5vh;
+    margin-bottom: 0%;
+}
+
+.discription{
+    font-size: small;
+}
+
+.Time{
+    font-size: medium;
+    font-weight: 500;
+    /* margin-bottom: 0%; */
+}
+
+.pod-playerEp{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    /* background-color: blueviolet; */
+    
+}
+
+.otherPods-contEp{
+    height: 90vh;
+    background-color: aquamarine;
+    display: flex;
+}
