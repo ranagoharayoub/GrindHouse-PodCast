@@ -25,7 +25,7 @@ function Footer() {
                         Sit back,
                         relax, and enjoy the most unprofessional courtroom scenario on air.
                             <br/> 
-                        Don’t forget to share thispodcast with your friends and on social media.
+                        Don’t forget to share this podcast with your friends and on social media.
                             <br/>
                          You are the reason why we do this Podcast!
                         </p>
@@ -37,7 +37,7 @@ function Footer() {
                         <p className='us'>US</p>
                     </div>
                     <div>
-                        <Twitter style={{ color: '#C1272D', fontSize: 50 }} ></Twitter>
+                        <a href='https://twitter.com/GHCHPodcast'><Twitter style={{ color: '#C1272D', fontSize: 50 }}></Twitter></a>
                     </div>
                     <div className='mailing-list'>
                         <p className='mailing'>MAILING</p> 
