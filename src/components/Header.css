@@ -56,6 +56,7 @@
 
 @media (max-width: 400px){
 
+
     .mid-cont{
         /* background-color: aquamarine; */
         margin-top: 10vh;
@@ -73,7 +74,7 @@
     }
     .sec-title{
         font-size: 50px;
-        margin-top: -30px;
+        margin-top: -25px;
         margin-bottom: 0px;
         text-align: center;
     }
@@ -85,7 +86,7 @@
 
     .second-svg{
         position: absolute;
-        top: 116vh;
+        top: 113vh;
     }
 
     .logo{

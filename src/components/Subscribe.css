@@ -22,3 +22,9 @@
     margin-top: 11px !important;
     width: 100px !important;
 }
+
+@media (max-width: 400px){
+    #mc-embedded-subscribe-form{
+        display: block !important;
+    }
+}
