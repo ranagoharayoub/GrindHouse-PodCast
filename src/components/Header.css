@@ -57,6 +57,17 @@
 @media (max-width: 400px){
 
 
+    .upper-cont{
+        /* height: 10vh; */
+        box-sizing: border-box;
+        width: 90%;
+        margin: 5vh;
+        display: flex;
+        justify-content: space-between; 
+        /* background-color: aqua; */
+        align-items: center;
+    }
+
     .mid-cont{
         /* background-color: aquamarine; */
         margin-top: 10vh;
