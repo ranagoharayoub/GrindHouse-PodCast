@@ -1,41 +1,15 @@
 import React from 'react'
 import './Body.css'
-import '@material-ui/core'
-import Episodes from './Episodes'
-import { PlayCircleOutlineOutlined } from '@material-ui/icons'
-
 
 
 function Body() {
     return (
         <div className='body-cont'>
             <div className='margin-cont'>
-                <div className='played-pod'>
-                    <div className='pod-img'>
-
-                    </div>
-                    <div className='pod-detail'>
-                        <p className='Newest-Episodes'>NEWEST EPISODES</p>
-                        <p className='Date'>DATE</p>
-                    </div>  
-                    <div className='pod-player'>
-                        <PlayCircleOutlineOutlined className='play-icon' style={{ fontSize: 130 }} ></PlayCircleOutlineOutlined>
-                    </div>
-                </div>
                 <div className='otherPods-cont'>
                     <div className='Latest-Ep'>
-                        <div className='latest-Episodes'>
-                            <p>Latest Episodes</p>
-                        </div>
-                        <div className='new-Ep'>
-                            <Episodes></Episodes>
-                            <Episodes></Episodes>
-                            <Episodes></Episodes>
-                        </div>
-                        <div className='btn'>
-                            <button className='prev-btn'>PREVIOUS</button>
-                            <button className='next-btn'>NEXT</button>
-                        </div>
+                        <div class="redcirclePlayer-b596f9b0-0ee2-4f3f-b64c-cacfa05c44ed" style={{height:'600px'}}></div>
+                        <p style={{margintop: '3px', marginleft:'11px',fontfamily: 'sans-serif',fontsize: '10px', color: 'gray'}}>Powered by <a class="redcircle-link" href="https://redcircle.com?utm_source=rc_embedded_player&utm_medium=web&utm_campaign=embedded_v1">RedCircle</a></p>
                     </div>
                     <div className='listen-subscribe'>
                         <div className='list-sub'>
