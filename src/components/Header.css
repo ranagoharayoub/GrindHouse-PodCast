@@ -49,10 +49,6 @@
 }
 
 
-.second-svg{
-    position: absolute;
-    top: 108vh;
-}
 
 @media (max-width: 400px){
 
@@ -94,11 +90,6 @@
         text-align: center;
         margin-left: 20px;
        }
-
-    .second-svg{
-        position: absolute;
-        top: 113vh;
-    }
 
     .logo{
         height: 300px !important;
