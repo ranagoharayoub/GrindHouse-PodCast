@@ -8,8 +8,8 @@ function Body() {
             <div className='margin-cont'>
                 <div className='otherPods-cont'>
                     <div className='Latest-Ep'>
-                        <div class="redcirclePlayer-b596f9b0-0ee2-4f3f-b64c-cacfa05c44ed" style={{height:'600px'}}></div>
-                        <p style={{margintop: '3px', marginleft:'11px',fontfamily: 'sans-serif',fontsize: '10px', color: 'gray'}}>Powered by <a class="redcircle-link" href="https://redcircle.com?utm_source=rc_embedded_player&utm_medium=web&utm_campaign=embedded_v1">RedCircle</a></p>
+                        <div className="redcirclePlayer-b596f9b0-0ee2-4f3f-b64c-cacfa05c44ed" style={{height:'600px'}}></div>
+                        <p style={{margintop: '3px', marginleft:'11px',fontfamily: 'sans-serif',fontsize: '10px', color: 'gray'}}>Powered by <a className="redcircle-link" href="https://redcircle.com?utm_source=rc_embedded_player&utm_medium=web&utm_campaign=embedded_v1">RedCircle</a></p>
                     </div>
                     <div className='listen-subscribe'>
                         <div className='list-sub'>
@@ -62,9 +62,9 @@ function Body() {
                 </div>
                 <div className='icon-cont'>
                     <div className='icon-center'>
-                        <a href='https://twitter.com/GHCHPodcast'><img src='/radio-public.png' alt='twitter' height= '64px' ></img></a>
+                        <a href='https://radiopublic.com/grindhouse-courthouse-podcast-6NB17o'><img src='/radio-public.png' alt='twitter' height= '64px' ></img></a>
                         <a href='https://www.breaker.audio/grindhouse-courthouse'><img src='/icon-breaker.png' alt='twitter' height= '64px' ></img></a>
-                        <a href='https://twitter.com/GHCHPodcast'><img src='/red-circle.png' alt='twitter' height= '64px' ></img></a>
+                        <a href='https://redcircle.com/shows/grindhouse-courthouse-podcast'><img src='/red-circle.png' alt='twitter' height= '64px' ></img></a>
                         <a href='https://podcasts.google.com/feed/aHR0cHM6Ly9tZWRpYS5yc3MuY29tL2dyaW5kaG91c2Vjb3VydGhvdXNlcG9kY2FzdC9mZWVkLnhtbA'><img src='/google-podcast.png' alt='google-pod' height='64px'></img></a>
                         <a href='https://podcasts.apple.com/ca/podcast/grindhouse-courthouse-podcast/id1556504779'><img src='/apple-podcast.png' alt='apple-pod' height='64px'></img></a>
                         <a href='https://open.spotify.com/show/4MjXCuDwaxLWAlKjVSS77c'><img src='/spotify.png' alt='spotify' height='64px'></img></a> 

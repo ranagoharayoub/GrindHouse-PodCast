@@ -53,3 +53,43 @@
     position: absolute;
     top: 108vh;
 }
+
+@media (max-width: 400px){
+
+    .mid-cont{
+        /* background-color: aquamarine; */
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        /* align-items: center; */
+    }
+
+    .title{
+        font-size: 50px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .sec-title{
+        font-size: 50px;
+        margin-top: -30px;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .subtitle{
+        text-align: center;
+        margin-left: 20px;
+       }
+
+    .second-svg{
+        position: absolute;
+        top: 116vh;
+    }
+
+    .logo{
+        height: 300px !important;
+        margin-right: 0px;
+    }
+}
